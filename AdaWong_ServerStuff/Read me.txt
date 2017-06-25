@@ -7,7 +7,7 @@ Names at creation of this pack
 Om Nom Nom = http://steamcommunity.com/id/prototype331
 splinks = http://steamcommunity.com/id/splinks
 pajama911 = http://steamcommunity.com/id/pajama911
-Armonic = http://steamcommunity.com/id/ArmonicJourney
+Lux = http://steamcommunity.com/id/LuxiLuma/
 
 Credits to Om Nom Nom for sound
 Credits to splinks & pajama911 for model
