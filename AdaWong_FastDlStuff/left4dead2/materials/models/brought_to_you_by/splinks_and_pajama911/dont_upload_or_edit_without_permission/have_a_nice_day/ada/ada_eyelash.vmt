@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Models\Brought_To_You_By\Splinks_And_Pajama911\dont_upload_or_edit_without_permission\Have_A_Nice_Day\Ada/pl0600_02eyelash_BM"
+	"$nocull" 1
+	"$translucent" 1
+"$bumpmap" "Models\Brought_To_You_By\Splinks_And_Pajama911\dont_upload_or_edit_without_permission\Have_A_Nice_Day\Ada/eyelash_NM"
+"$phongexponenttexture" "Models\Brought_To_You_By\Splinks_And_Pajama911\dont_upload_or_edit_without_permission\Have_A_Nice_Day\Ada/eyelash_PM"
+
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"3"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+
+"$rimlight" "1" 
+"$rimlightexponent" "0.5" 
+"$rimlightboost" "3.5" 
+"$rimmask" 1
+}

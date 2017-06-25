@@ -1,1 +1,1 @@
-# [L4D2]AdaWong Survivor
+https://forums.alliedmods.net/showthread.php?p=2429012

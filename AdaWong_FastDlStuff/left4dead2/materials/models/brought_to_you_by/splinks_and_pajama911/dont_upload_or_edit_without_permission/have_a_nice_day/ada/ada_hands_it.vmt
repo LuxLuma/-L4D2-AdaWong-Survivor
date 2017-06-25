@@ -1,0 +1,38 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+	"$basetexture" "Models\Brought_To_You_By\Splinks_And_Pajama911\dont_upload_or_edit_without_permission\Have_A_Nice_Day\Ada/pl0600_08hand_BM"
+     "$bumpmap" "Models\Brought_To_You_By\Splinks_And_Pajama911\dont_upload_or_edit_without_permission\Have_A_Nice_Day\Ada/Glove_NM"
+
+"$phongexponenttexture" "Models\Brought_To_You_By\Splinks_And_Pajama911\dont_upload_or_edit_without_permission\Have_A_Nice_Day\Ada/Glove_SM"
+
+ 	"$phong" "1"
+	"$phongexponent" "12"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+
+"$rimlight" "1" 
+"$rimlightexponent" "0.5" 
+"$rimlightboost" "3.5" 
+"$rimmask" 1
+
+vertexlitgeneric_dx8
+{
+$envmaptint "[.05 .03 .01]"
+$envmap env_cubemap
+	$envmapmask "Models\Brought_To_You_By\Splinks_And_Pajama911\dont_upload_or_edit_without_permission\Have_A_Nice_Day\Ada/Glove_SM"
+}
+vertexlitgeneric_HDR_dx8
+{
+$envmaptint "[.22 .12 .07]"
+$envmap env_cubemap
+	$envmapmask "Models\Brought_To_You_By\Splinks_And_Pajama911\dont_upload_or_edit_without_permission\Have_A_Nice_Day\Ada/Glove_SM"
+}
+$halflambert 1
+$phong 0
+"GPU>=2?$phong" 1
+}

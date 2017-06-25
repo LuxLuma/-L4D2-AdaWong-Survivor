@@ -1,0 +1,28 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+	"$basetexture" "Models\Brought_To_You_By\Splinks_And_Pajama911\dont_upload_or_edit_without_permission\Have_A_Nice_Day\Ada/pl_earLight_BM"
+$surfaceprop metal
+$model 1
+$blendtintbybasealpha 1
+
+
+
+
+
+
+
+$envmap env_cubemap
+
+$envmapmask "Models\Brought_To_You_By\Splinks_And_Pajama911\dont_upload_or_edit_without_permission\Have_A_Nice_Day\Ada/pl_earLight_BM"
+
+
+$envmapfresnel 1
+$envmapFresnelMinMaxExp "[.1 2 3]"
+
+
+
+}
