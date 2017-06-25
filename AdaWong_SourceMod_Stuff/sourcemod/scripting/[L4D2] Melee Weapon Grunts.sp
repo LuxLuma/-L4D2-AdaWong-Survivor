@@ -52,11 +52,11 @@ public OnPluginStart()
 	HookEvent("infected_death", Event_HeadShot2);
 	HookEvent("weapon_fire", Event_WeaponFire);
 	
-	new Handle:CombatGruntChance = CreateConVar("combat_grunt_chance", "50", "Chance out of 100 (i.e 25 for 25% chance) that a survivor will vocalize their combat grunts when using their melee weapon", FCVAR_PLUGIN, true, 1.0, true, 100.0);
+	new Handle:CombatGruntChance = CreateConVar("combat_grunt_chance", "50", "Chance out of 100 (i.e 25 for 25% chance) that a survivor will vocalize their combat grunts when using their melee weapon", FCVAR_NOTIFY, true, 1.0, true, 100.0);
 	HookConVarChange(CombatGruntChance, ConVarCombatGrunt);
 	g_iCombatGruntChance = GetConVarInt(CombatGruntChance);
 	
-	new Handle:EllisCommentChance = CreateConVar("ellis_comment_chance", "25", "Chance out of 100 (i.e 25 for 25% chance) that a Ellis will make a comment when beheading a common infected with a melee weapon", FCVAR_PLUGIN, true, 1.0, true, 100.0);
+	new Handle:EllisCommentChance = CreateConVar("ellis_comment_chance", "25", "Chance out of 100 (i.e 25 for 25% chance) that a Ellis will make a comment when beheading a common infected with a melee weapon", FCVAR_NOTIFY, true, 1.0, true, 100.0);
 	HookConVarChange(EllisCommentChance, ConVarEllisComment);
 	g_iEllisCommentChance = GetConVarInt(EllisCommentChance);
 	

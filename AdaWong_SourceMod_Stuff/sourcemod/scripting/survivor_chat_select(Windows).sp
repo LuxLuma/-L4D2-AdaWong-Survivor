@@ -63,7 +63,7 @@ public OnPluginStart()
     RegConsoleCmd("sm_csm", ShowMenu, "Brings up a menu to select a client's character");
     
     
-    new Handle:AdminsOnly = CreateConVar("l4d_csm_admins_only", "1","Changes access to the sm_csm command. 1 = Admin access only.",FCVAR_PLUGIN|FCVAR_SPONLY,true, 0.0, true, 1.0);
+    new Handle:AdminsOnly = CreateConVar("l4d_csm_admins_only", "1","Changes access to the sm_csm command. 1 = Admin access only.",FCVAR_SPONLY,true, 0.0, true, 1.0);
     g_bAdminsOnly = GetConVarBool(AdminsOnly);
     HookConVarChange(AdminsOnly, _ConVarChange__AdminsOnly);
     
