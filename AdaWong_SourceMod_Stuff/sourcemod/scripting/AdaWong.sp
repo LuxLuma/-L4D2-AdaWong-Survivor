@@ -8,7 +8,7 @@
 
 public Plugin:myinfo =  {
 	name = "AdaWong", 
-	author = "Armonic (ludastar)", 
+	author = "Lux", 
 	description = "Adds another survivor called AdaWong", 
 	version = PLUGIN_VERSION, 
 	url = "https://forums.alliedmods.net/showthread.php?p=2429012#post2429012"

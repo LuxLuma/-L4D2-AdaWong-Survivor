@@ -30,7 +30,7 @@ static bool:g_bAdminsOnly;
 public Plugin:myinfo =  
 {  
     name = "Survivor Chat Select (AdaWong Version)",  
-    author = "DeatChaos25 & Mi123456 & Ludastar",  
+    author = "DeatChaos25 & Mi123456",  
     description = "Select a survivor character by typing their name into the chat (AdaWong Version)",  
     version = "1.4",  
 }  

@@ -28,7 +28,7 @@ static bool:g_bGruntCoolDown[MAXPLAYERS + 1] = false;
 public Plugin:myinfo = 
 {
 	name = "L4D2 Melee Weapon Grunts (AdaWong Version)", 
-	author = "DeathChaos25 & Ludastar", 
+	author = "DeathChaos25 & Lux", 
 	description = "Makes (currently L4D2 only)survivor vocalize their unused Combat Grunts when swinging a melee weapon (AdaWong Version)", 
 	version = "1.2", 
 	url = "https://forums.alliedmods.net/showthread.php?t=259596"
